@@ -52,7 +52,6 @@ abstract class FastEventHandler
                 foreach ($this->getScoreboardLines($player) as $i => $line){
                     $scoreboard->removeLine(Main::SCOREBOARD_NAME, $i);
                     $scoreboard->setLine(Main::SCOREBOARD_NAME, $i, $line);
-                    var_dump($line);
                 }
             }
 
